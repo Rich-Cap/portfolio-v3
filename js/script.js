@@ -1,21 +1,18 @@
 $(document).ready(function () {
-	// $("button").click(function () {
-	// 	$("#cards-container").slideUp(2000);
-	// });
-
 	// Change class and css on navbar
 	// Fade Text
 	$(window).scroll(function () {
 		var height = $(document).scrollTop();
 
 		if (height < 1) {
-			$(".navbar").css("background-color", "#fff");
-			$(".navbar").removeClass("navbar-dark");
-			$(".navbar").addClass("navbar-light");
+			$(".navbar").css("background-color", "rgb(12, 70, 70)");
+			// $(".navbar").removeClass("navbar-dark");
+			// $(".navbar").addClass("navbar-light");
 		} else {
-			$(".navbar").css("background-color", "#004250");
-			$(".navbar").removeClass("navbar-light");
-			$(".navbar").addClass("navbar-dark");
+			// $(".navbar").css("background-color", "#004250");
+			$(".navbar").css("background-color", "rgb(10, 39, 39)");
+			// $(".navbar").removeClass("navbar-light");
+			// $(".navbar").addClass("navbar-dark");
 		}
 
 		var scrollTop = $(this).scrollTop();
@@ -45,5 +42,4 @@ $(document).ready(function () {
 	$("button").on("mouseleave", function(){
 		$("#contact-logo-mail").attr("src", "./Content/send-yellow.gif");
 	});
-
 });
