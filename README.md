@@ -16,27 +16,16 @@ If you are opting out of career services, this is *still a required assignment*.
 * Updated LinkedIn profile
 
 
-## Grading
-
-| Requirement      | Weight |
-|---               |---     |
-| Portoflio        | 40%    |
-| GitHub Profile   | 40%    |
-| Resume           | 10%    |
-| LinkedIn Profile | 10%    |
-
-
 ## Instructions
 
 - [Portfolio](#portfolio)
-	- [Requirements](#requirements)
-	- [Grading](#grading)
-	- [Instructions](#instructions)
-		- [Updated Portfolio](#updated-portfolio)
-			- [Design](#design)
-		- [Updated GitHub Profile](#updated-github-profile)
-		- [Updated Resume](#updated-resume)
-		- [Updated LinkedIn Profile](#updated-linkedin-profile)
+  - [Requirements](#requirements)
+  - [Instructions](#instructions)
+    - [Updated Portfolio](#updated-portfolio)
+      - [Design](#design)
+    - [Updated GitHub Profile](#updated-github-profile)
+    - [Updated Resume](#updated-resume)
+    - [Updated LinkedIn Profile](#updated-linkedin-profile)
 
 ### Updated Portfolio
 
