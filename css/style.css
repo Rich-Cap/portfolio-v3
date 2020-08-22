@@ -46,9 +46,33 @@
 	padding-top: 0rem;
 	margin-bottom: 0rem;
 	height: 35rem;
-	/* background-color: rgb(255, 255, 255); */
-	background-color: cornsilk;
-	/* background-color: rgb(248, 226, 196); */
+	/* background-color: cornsilk; */
+	background-image: url(https://s3-eu-west-1.amazonaws.com/sales-i-wordpress/wp-content/uploads/2015/12/17112848/black-background.jpg);
+	color: rgb(236, 234, 234);
+}
+#arrowdown{
+	color: rgb(189, 182, 182);
+	border-style: solid;
+	border-radius: 50%;
+	background-color: rgb(194, 182, 162);
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	transform: scale(.6);
+	position: relative;
+}
+#arrowdown:hover{
+	animation-name: bounce-5;
+	animation-timing-function: ease;
+	background-color: darkgoldenrod;
+}
+@keyframes bounce-5 {
+	0%   { transform: scale(.7,.7)    translateY(0); }
+	10%  { transform: scale(.7,.7) 	  translateY(0); }
+	30%  { transform: scale(.7,.7) 	  translateY(-25px); }
+	50%  { transform: scale(.7,.7)    translateY(0); }
+	57%  { transform: scale(.7,.7)    translateY(-5px); }
+	64%  { transform: scale(.7,.7)    translateY(0); }
+	100% { transform: scale(.7,.7)    translateY(0); }
 }
 #jumbo-body{
 	padding-top: 8rem;
@@ -172,8 +196,10 @@
 	color: rgb(255, 210, 62);
 }
 #healthcare{
-	background-color: cornsilk;
+	/* background-color: cornsilk; */
 	/* color: white; */
+	background-image: url(https://s3-eu-west-1.amazonaws.com/sales-i-wordpress/wp-content/uploads/2015/12/17112848/black-background.jpg);
+	color: white;
 }
 .tab-body{
 	margin-top: 7rem;
